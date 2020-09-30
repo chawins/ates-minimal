@@ -11,12 +11,11 @@ import torch.backends.cudnn as cudnn
 import yaml
 from autoattack import AutoAttack
 
-from lib.cifar10_model import PreActBlock, PreActResNet
 from lib.dataset_utils import (load_cifar10_all, load_cifar100_all,
                                load_mnist_all)
-from lib.utils import classify, get_acc, get_logger, quantize
-from lib.wideresnet import WideResNet
 from lib.mnist_model import BasicModel
+from lib.utils import classify, get_acc, get_logger
+from lib.wideresnet import WideResNet
 
 
 def main(config):
