@@ -9,7 +9,6 @@ data/
 *~
 vis/
 model/
-*.log
 out*
 log
 x_adv
